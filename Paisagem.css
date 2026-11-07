@@ -1,0 +1,56 @@
+
+/* Container principal: define o layout flexível em linha (colunas lado a lado) */
+.mae{  
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;   
+    align-items: flex-start;   
+    gap: 40px;                 
+    max-width: 1200px;          
+    margin: 0 auto;          
+}
+
+/* Título principal da página */
+h1{ 
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;          
+    font-weight: 800;           
+    color: #2c3e50;            
+    letter-spacing: 1px;      
+    margin-bottom: 50px;       
+    text-transform: uppercase; 
+}
+
+/* Subtítulos das seções de entretenimento */
+.entretenimento h2{ 
+    color: #4a5568;            
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;       
+}
+.entretenimento {
+    flex: 1;              
+    min-width: 280px;
+}
+/* Padronização e dimensionamento das imagens */
+.entretenimento img {
+    width: 100%;               
+    max-width: 220px;          
+    height: 300px;
+    object-fit: cover;        
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+}
+
+/* Formatação dos textos explicativos */
+.entretenimento p {
+    font-size: 0.95rem;        
+    color: #64748b;            
+    line-height: 1.6;          
+    text-align: justify;      
+}
+
+
+
